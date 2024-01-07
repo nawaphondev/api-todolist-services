@@ -1,10 +1,10 @@
 {
-  "name": "api-todolist-rmu",
+  "name": "api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "api": "node index.js",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
@@ -13,7 +13,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
-    "json-server": "^1.0.0-alpha.11"
+    "json-server": "^0.17.4"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
